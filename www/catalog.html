@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Ekzon.by</title>
+ <link href="optimized/css-min/style.min.css" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+ <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+ <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+ <script src="js/jquery.min.js"></script>
+ <style>
+  @font-face {
+  	font-family: 'Roboto-Light';
+  	src: url('fonts/Roboto-Light.eot');
+  	src: url('fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+  		 url('fonts/Roboto-Light.woff') format('woff'),
+  		 url('fonts/Roboto-Light.ttf') format('truetype'),
+  		 url('fonts/Roboto-Light.svg#Roboto-Light') format('svg');
+  	font-style: normal;
+  	font-weight: normal;
+  }
+  @font-face {
+  	font-family: 'Roboto-Medium';
+  	src: url('fonts/Roboto-Medium.eot');
+  	src: url('fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+  		 url('fonts/Roboto-Medium.woff') format('woff'),
+  		 url('fonts/Roboto-Medium.ttf') format('truetype'),
+  		 url('fonts/Roboto-Medium.svg#Roboto-Medium') format('svg');
+  	font-style: normal;
+  	font-weight: normal;
+  }
+  @font-face {
+  	font-family: 'Roboto-Regular';
+  	src: url('fonts/Roboto-Regular.eot');
+  	src: url('fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+  		 url('fonts/Roboto-Regular.woff') format('woff'),
+  		 url('fonts/Roboto-Regular.ttf') format('truetype'),
+  		 url('fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+  	font-style: normal;
+  	font-weight: normal;
+  }
+  @font-face {
+  	font-family: 'Roboto-Slab';
+  	src: url('fonts/Roboto-Slab.eot');
+  	src: url('fonts/Roboto-Slab.eot?#iefix') format('embedded-opentype'),
+  		 url('fonts/Roboto-Slab.woff') format('woff'),
+  		 url('fonts/Roboto-Slab.ttf') format('truetype'),
+  		 url('fonts/Roboto-Slab.svg#Roboto-Slab') format('svg');
+  	font-style: normal;
+  	font-weight: normal;
+  }
+ </style>
+</head>
+<body>
+ <div class="page-preloader">
+  <span class="spinner">
+    <figure>
+     <div></div>
+     <div></div>
+     <div></div>
+    </figure>
+  </span>
+ </div>
+ <div class="page-container">
+  <div class="page-align">
+   <div class="top-line">
+    <div><img src="optimized/img-min/navigation.png" height="23px" width="19px" ><p>225612, Республика Беларусь, г.Дрогичин ул.Ленина 202</p></div>
+    <div><img src="optimized/img-min/farm_logotype.png" height="28px" width="23px"><p>Фармаконадзор</p></div>
+    <div><img src="optimized/img-min/login.png" height="25px" width="28px"><p>Вход для клиентов</p></div>
+   </div>
+   <header class="header">
+     <ul id="menu">
+      <li><a href="#" title="Каталог"><i class="fa fa-folder-open" aria-hidden="true"></i>Каталог продукции</a></li>
+      <li><a href="#" title="О компании"><i class="fa fa-home" aria-hidden="true"></i>О компании</a></li>
+      <li><a href="#" title="Новости"><i class="fa fa-television" aria-hidden="true"></i>Новости</a></li>
+      <li><img src="optimized/img-min/ekzon_logotype.png" alt="ekzon-logotype"><div><h4>ОАО «ЭКЗОН»</h4><p>Производство наруральных лекарственных средств</p></div></li>
+      <li><a href="#" title="Партнерам"><i class="fa fa-user-plus" aria-hidden="true"></i>Партнерам</a></li>
+      <li><a href="#" title="Контакты"><i class="fa fa-mobile" aria-hidden="true"></i>Контакты</a></li>
+      <li><p>8 01644 <span>3-24-09</span></p><a>Онлайн заявка</a></li>
+      <li><a href="#" title="Выход" onClick="menu_func();return false;"><i class="fa fa-sign-in" aria-hidden="true"></i>Выход из навигации</a></li>
+     </ul>
+     <div class="header__nav">
+      <div><img src="optimized/img-min/ekzon_logotype.png" alt="ekzon-logotype"><div><h4>ОАО «ЭКЗОН»</h4><p>Производство натуральных<br>лекарственных средств</p></div></div>
+      <div><div><p class="header__nav-p">8 01644 <span>3-24-09</span></p><a href="#">Онлайн заявка</a></div></div>
+      <div class="header__nav-button" onClick="menu_func();">☰</div>
+     </div>
+   </header>
+   <main>
+   <div class="catalog-top">
+    <div>
+     <a href="index.html" title="Главная">Главная</a><pre> » </pre><p>Каталог продукции</p>
+    </div>
+    <h1>Каталог продукции</h1>
+   </div>
+   <div class="catalog-content">
+    <div class="catalog-content__top">
+     <div>
+      <div>
+       <input id="tab_1" type="checkbox" name="tab-1">
+       <label for="tab_1" title="Перелючатель"><div></div>Показать только новинки</label>
+      </div>
+      <div>
+       <input id="tab_2" type="checkbox" name="tab-2">
+       <label for="tab_2" title="Перелючатель"><div></div>Сортировать:</label>
+      </div>
+     </div>
+    </div>
+    <div class="catalog-content__align">
+      <div class="catalog-content__menu-side">
+       <div>
+        <input id="tab_3" type="radio" name="tabs">
+        <label for="tab_3" title="Перелючатель">Лекарственные средства<i></i><ul>
+          <li><div></div><a href="#">Сиропы</a></li>
+          <li><div></div><a href="#">Гематогены</a></li>
+          <li><div></div><a href="#">Таблетки</a></li>
+          <li><div></div><a href="#">Порошки и гранулы</a></li>
+          <li><div></div><a href="#">Капсулы</a></li>
+          <li><div></div><a href="#">Прочие лекарственные средства</a></li>
+         </ul>
+        </label>
+        <input id="tab_4" type="radio" name="tabs">
+        <label for="tab_4" title="Перелючатель">Биологически активные добавки<i></i><ul>
+          <li><div></div><a href="#">Первая категория</a></li>
+          <li><div></div><a href="#">Вторая категория</a></li>
+          <li><div></div><a href="#">Третья категория</a></li>
+          <li><div></div><a href="#">Четвертая категория</a></li>
+         </ul>
+        </label>  
+        <input id="tab_5" type="radio" name="tabs">
+        <label for="tab_5" title="Перелючатель">Пищвые продукты<i></i><ul>
+          <li><div></div><a href="#">Первая категория</a></li>
+          <li><div></div><a href="#">Вторая категория</a></li>
+          <li><div></div><a href="#">Третья категория</a></li>
+          <li><div></div><a href="#">Четвертая категория</a></li>
+         </ul>
+        </label>         
+       </div>
+       <div>
+       </div>
+      </div>
+      <div class="catalog-content__goods-side">
+       <div>
+        <div>
+         <img src="optimized/img-min/deleted/good.png" alt="goods">
+         <h4>Сироп «РОЗАВИТ»</h4>
+         <p>Средство, регулирующее метаболические процессы</p>
+         <span><img src="optimized/img-min/recept.png" alt="recept">Без рецепта</span>
+        </div>
+        <div>
+         <img src="optimized/img-min/deleted/good.png" alt="goods">
+         <h4>Сироп «РОЗАВИТ»</h4>
+         <p>Средство, регулирующее метаболические процессы</p>
+         <span><img src="optimized/img-min/recept.png" alt="recept">Без рецепта</span>
+        </div>
+        <div>
+         <img src="optimized/img-min/deleted/good.png" alt="goods">
+         <h4>Сироп «РОЗАВИТ»</h4>
+         <p>Средство, регулирующее метаболические процессы</p>
+         <span><img src="optimized/img-min/recept.png" alt="recept">Без рецепта</span>
+        </div>
+        <div>
+         <img src="optimized/img-min/deleted/good.png" alt="goods">
+         <h4>Сироп «РОЗАВИТ»</h4>
+         <p>Средство, регулирующее метаболические процессы</p>
+         <span><img src="optimized/img-min/recept.png" alt="recept">Без рецепта</span>
+        </div>
+        <div>
+         <img src="optimized/img-min/deleted/good.png" alt="goods">
+         <h4>Сироп «РОЗАВИТ»</h4>
+         <p>Средство, регулирующее метаболические процессы</p>
+         <span><img src="optimized/img-min/recept.png" alt="recept">Без рецепта</span>
+        </div>
+        <div>
+         <img src="optimized/img-min/deleted/good.png" alt="goods">
+         <h4>Сироп «РОЗАВИТ»</h4>
+         <p>Средство, регулирующее метаболические процессы</p>
+         <span><img src="optimized/img-min/recept.png" alt="recept">Без рецепта</span>
+        </div>
+        <div>
+         <img src="optimized/img-min/deleted/good.png" alt="goods">
+         <h4>Сироп «РОЗАВИТ»</h4>
+         <p>Средство, регулирующее метаболические процессы</p>
+         <span><img src="optimized/img-min/recept.png" alt="recept">Без рецепта</span>
+        </div>
+        <div>
+         <img src="optimized/img-min/deleted/good.png" alt="goods">
+         <h4>Сироп «РОЗАВИТ»</h4>
+         <p>Средство, регулирующее метаболические процессы</p>
+         <span><img src="optimized/img-min/recept.png" alt="recept">Без рецепта</span>
+        </div>
+        <div>
+         <img src="optimized/img-min/deleted/good.png" alt="goods">
+         <h4>Сироп «РОЗАВИТ»</h4>
+         <p>Средство, регулирующее метаболические процессы</p>
+         <span><img src="optimized/img-min/recept.png" alt="recept">Без рецепта</span>
+        </div>
+       </div>
+       <h3>Лекарственные препараты и пищевые добавки</h3>
+       <p>
+        Производство продукции осуществляется на основании промышленных регламентов, технологических инструкций, стандартных операционных процедур (СОП). На предприятии действует собственная служба обеспечения и контроля  качества. Высококвалифицированный персонал выполняет работы по входному промежуточному контролю, а также контроль качества готовой продукции, контролирует хранение и реализацию. Процесс производства, обеспечения и контроль качества продукции ОАО "Экзон" гарантирует безопасность продукции, эффективность и полное соответствие техническим нормативным правовым актам и нормативным документам.
+       </p>
+       <a href="#" title="Подробная информация">Подробно</a>
+      </div>
+    </div>
+   </div> 
+   </main>
+   <div class="poll-block">
+     <p>
+      Примите участие в опросе,<br>
+      чтобы помочь нам совершенствоваться
+     </p>
+     <a href="#" title="Принять участие">Принять участие</a>
+   </div>
+   <footer class="footer">
+    <div class="footer__container">
+     <div class="footer__contacts">
+      <div class="footer__logotype-part">
+       <img src="optimized/img-min/ekzon_logotype.png" alt="Ekzokon logotype">
+       <div>
+        <h4>ОАО «ЭКЗОН»</h4>
+        <p>Производство наруральных<br>лекарственных средств</p>
+       </div>
+       <a href="#">Онлайн заявка</a>
+      </div>
+      <h4>8 01644 <span>3-24-09</span><br>8 01644 <span>3-24-09</span></h4>
+      <p>225612, Республика Беларусь,<br>г. Дрогичин, ул. Ленина 202</p>
+      <p>bm@ekzon.by</p>
+     </div>
+     <div class="footer__catygories">
+       <h4>Компания</h4>
+       <ul>
+        <li><a href="#" title="Информация">Информация</a></li>
+       	<li><a href="#" title="История">История</a></li>
+       	<li><a href="#" title="Сертификаты качества">Сертификаты качества</a></li>
+       	<li><a href="#" title="География продаж">География продаж</a></li>
+       </ul>
+       <a href="#" class="footer__recall-button" title="Обратная связь">Обратная связь</a>
+     </div>
+     <div class="footer__catygories">
+       <h4>Продукция</h4>
+       <ul>
+        <li><a href="#" title="Лекарственные средства">Лекарственные средства</a></li>
+       	<li><a href="#" title="Биологически активные добавки">Биологические добавки</a></li>
+       	<li><a href="#" title="Пищевые продукты">Пищевые продукты</a></li>
+       </ul>
+     </div>
+     <div class="footer__catygories">
+       <h4>Партнерам</h4>
+       <ul>
+        <li><a href="#" title="Наши партнеры">Наши партнеры</a></li>
+       	<li><a href="#" title="Дистрибьюторам">Дистрибьюторам</a></li>
+       	<li><a href="#" title="Информация по наличию">Информация по наличию</a></li>
+       	<li><a href="#" title="Положения по скидкам">Положение по скидкам</a></li>
+       	<li><a href="#" title="Форма заказа">Форма заказа</a></li>
+       	<li><a href="#" title="Прайс лист">Прайс лист</a></li>
+       </ul>
+       <div class="footer__socials">
+        <p>Присоединяйтесь:</p>
+        <a href="#" title="vk"></a>
+        <a href="#" title="ok"></a>
+        <a href="#" title="facebook"></a>
+        <a href="#" title="instagram"></a>
+       </div>
+     </div>
+    </div>
+   	<div class="footer__bottom">
+   	 <copyrights>© 2017 ОАО <span>«</span>ЭКЗОН<span>»</span> Все права защищены</copyrights>
+   	 <div><p>Разработка сайта</p><a href="scroll.by" title="scroll.by" ></a></div>
+   	</div>
+   </footer>
+  </div>	
+ </div>
+ <script src="optimized/js-min/catalog.min.js"></script>
+</body>
+</html>

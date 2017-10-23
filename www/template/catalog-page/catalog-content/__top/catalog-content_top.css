@@ -1,0 +1,87 @@
+@charset "UTF-8";
+.catalog-content__top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  color: #4a4a4a;
+  font-size: 18px; }
+  .catalog-content__top > div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%; }
+    .catalog-content__top > div div:first-child input {
+      display: none; }
+    .catalog-content__top > div div:first-child input:checked + label div {
+      background: gainsboro; }
+    .catalog-content__top > div div:first-child label {
+      font-family: Roboto-Light;
+      cursor: pointer;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .catalog-content__top > div div:first-child label div {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+        border: 1px solid #b0b0b0;
+        -webkit-border-radius: 20px;
+                border-radius: 20px;
+        margin-right: 10px; }
+    .catalog-content__top > div div:last-child {
+      font-family: Roboto-Light; }
+      .catalog-content__top > div div:last-child input {
+        display: none; }
+      .catalog-content__top > div div:last-child label {
+        cursor: pointer; }
+      .catalog-content__top > div div:last-child label:after {
+        content: " А → Я ";
+        font-family: Roboto-Medium; }
+      .catalog-content__top > div div:last-child input:checked + label:after {
+        content: " А ← Я "; }
+
+@media screen and (max-width: 1024px) {
+  .catalog-content__top > div {
+    width: 100%; } }
+
+@media screen and (max-width: 768px) {
+  .catalog-content__top {
+    font-size: 14px; }
+    .catalog-content__top > div {
+      width: 100%;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+      .catalog-content__top > div div:first-child label div {
+        width: 15px;
+        height: 15px; } }
+
+@media screen and (max-width: 425px) {
+  .catalog-content__top > div {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }

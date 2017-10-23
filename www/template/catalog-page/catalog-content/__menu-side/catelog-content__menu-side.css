@@ -1,0 +1,119 @@
+.catalog-content__menu-side {
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  width: 320px;
+  min-width: 320px;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .catalog-content__menu-side > div:first-child {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto-Medium;
+    font-size: 18px;
+    color: #4a4a4a;
+    overflow: hidden; }
+    .catalog-content__menu-side > div:first-child label {
+      background: #f8f8f8;
+      cursor: pointer;
+      line-height: 30px;
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 0px 15px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      border-left: 2px solid #d3d3d3;
+      border-right: 2px solid #d3d3d3;
+      -webkit-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+      .catalog-content__menu-side > div:first-child label i:before {
+        font-family: FontAwesome;
+        content: '\f107';
+        font-style: normal; }
+      .catalog-content__menu-side > div:first-child label ul {
+        width: 100%;
+        list-style: none;
+        font-family: Roboto-Regular;
+        font-size: 16px;
+        color: #4a4a4a !important;
+        margin: 0px;
+        padding-left: 25px;
+        display: none;
+        height: 0px;
+        -webkit-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease; }
+        .catalog-content__menu-side > div:first-child label ul li {
+          position: relative; }
+          .catalog-content__menu-side > div:first-child label ul li a {
+            color: #4a4a4a;
+            text-decoration: none;
+            display: block; }
+          .catalog-content__menu-side > div:first-child label ul li div {
+            width: 30px;
+            height: 30px;
+            -webkit-border-radius: 20px;
+                    border-radius: 20px;
+            background: #4ab75e;
+            position: absolute;
+            left: -55px;
+            display: none; }
+          .catalog-content__menu-side > div:first-child label ul li a:hover {
+            color: #4ab75e !important; }
+          .catalog-content__menu-side > div:first-child label ul li a:active {
+            color: #4ab75e !important; }
+    .catalog-content__menu-side > div:first-child label:nth-child(2) {
+      border-top: 2px solid #d3d3d3;
+      -webkit-border-radius: 15px 15px 0px 0px;
+              border-radius: 15px 15px 0px 0px;
+      padding-top: 30px; }
+    .catalog-content__menu-side > div:first-child label:last-child {
+      border-bottom: 2px solid #d3d3d3;
+      -webkit-border-radius: 0px 0px 15px 15px;
+              border-radius: 0px 0px 15px 15px;
+      padding-bottom: 30px; }
+    .catalog-content__menu-side > div:first-child label:hover {
+      color: #4ab75e; }
+    .catalog-content__menu-side > div:first-child input {
+      display: none; }
+    .catalog-content__menu-side > div:first-child input:checked + label {
+      color: #4ab75e;
+      border: 2px solid #4ab75e;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+    .catalog-content__menu-side > div:first-child input:checked + label i:before {
+      content: '\f106'; }
+    .catalog-content__menu-side > div:first-child input:checked + label ul {
+      display: block;
+      height: inherit; }
+  .catalog-content__menu-side > div:last-child {
+    height: 530px;
+    width: 320px;
+    max-width: 100%;
+    -webkit-border-radius: 15px;
+            border-radius: 15px;
+    margin-top: 30px;
+    background: url("../img-min/deleted/banner.jpg");
+    -webkit-background-size: 100% 100%;
+            background-size: 100% 100%; }
+
+@media screen and (max-width: 768px) {
+  .catalog-content__menu-side {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0px; }
+    .catalog-content__menu-side > div:last-child {
+      margin: 0px auto;
+      margin-top: 30px; } }

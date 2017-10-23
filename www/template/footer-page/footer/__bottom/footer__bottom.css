@@ -1,0 +1,57 @@
+.footer__bottom {
+  font-family: Roboto-Light;
+  font-size: 16px;
+  color: #4a4a4a;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  text-align: center;
+  border-top: 2px solid #4fb1f6;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none; }
+  .footer__bottom copyrights {
+    padding: 20px 0; }
+  .footer__bottom div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px 0; }
+    .footer__bottom div a {
+      display: block;
+      margin-left: 15px;
+      width: 113px;
+      height: 35px;
+      background: url("../img-min/scroll_logotype.png"); }
+    .footer__bottom div a:hover {
+      background-position: bottom; }
+  .footer__bottom span {
+    font-family: Arial; }
+
+@media screen and (max-width: 768px) {
+  .footer__bottom {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+    .footer__bottom div {
+      padding: 20px 0px; }
+    .footer__bottom copyrights {
+      padding: 20px 0px; } }

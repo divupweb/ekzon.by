@@ -1,0 +1,20 @@
+.goods-block__slider{
+    min-width:9999px;
+    height:600px;
+    display:flex;
+    overflow:hidden;
+    position:relative;
+}
+@media screen and (max-width:768px){
+.goods-block__slider{
+       width:350px;
+       min-width:auto;
+       margin:0 auto;
+       margin-top:25px;
+    }
+}
+@media screen and (max-width:425px){
+.goods-block__slider{
+       height:500px;
+    }
+}

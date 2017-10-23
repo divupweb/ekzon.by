@@ -1,0 +1,11 @@
+.page-container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.page-align {
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative; }

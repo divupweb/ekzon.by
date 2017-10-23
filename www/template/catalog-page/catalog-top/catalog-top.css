@@ -1,0 +1,87 @@
+.catalog-top {
+  max-height: 390px;
+  width: 100%;
+  background: url("../img-min/catalog-background.jpg");
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 14.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none; }
+  .catalog-top div {
+    font-size: 18px;
+    font-family: Roboto-Regular;
+    color: white;
+    font-weight: 400;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .catalog-top div a {
+      color: white;
+      text-decoration: none; }
+    .catalog-top div a:hover {
+      text-decoration: underline; }
+    .catalog-top div pre {
+      font-size: 24px; }
+  .catalog-top h1 {
+    font-family: Roboto-Slab;
+    font-size: 72px;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 500px;
+    background: rgba(79, 177, 246, 0.6);
+    -webkit-border-radius: 0px 0px 0px 120px;
+            border-radius: 0px 0px 0px 120px;
+    margin: 0px;
+    margin-bottom: 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    max-width: 57%; }
+
+@media screen and (max-width: 1368px) {
+  .catalog-top {
+    padding-left: 2%; }
+    .catalog-top h1 {
+      max-width: 49%;
+      font-size: 48px;
+      padding-right: 200px;
+      padding-top: 160px; }
+    .catalog-top div {
+      font-size: 14px; } }
+
+@media screen and (max-width: 1024px) {
+  .catalog-top h1 {
+    padding-top: 90px; } }
+
+@media screen and (max-width: 768px) {
+  .catalog-top h1 {
+    padding-top: 75px;
+    padding-left: 25px;
+    padding-bottom: 65px;
+    padding-right: 20px;
+    font-size: 35px;
+    -webkit-border-radius: 0px 0px 0px 60px;
+            border-radius: 0px 0px 0px 60px;
+    max-width: 53%; } }
+
+@media screen and (max-width: 425px) {
+  .catalog-top div {
+    display: none; }
+  .catalog-top h1 {
+    max-width: 100%; } }

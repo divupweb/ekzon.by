@@ -1,0 +1,12 @@
+.header__nav_menu-in{
+	animation: left-in 1s;
+	animation-fill-mode:forwards;
+}
+@keyframes left-in{
+    from {
+       right:-70%;
+    }
+    to {
+       right:0%;
+    }
+}

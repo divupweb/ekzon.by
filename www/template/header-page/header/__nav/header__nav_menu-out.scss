@@ -1,0 +1,12 @@
+.header__nav_menu-out{
+	animation: right-in 1s;
+	animation-fill-mode:forwards;
+}
+@keyframes right-in{
+    from {
+       right:0%;
+    }
+    to {
+       right:-70%;
+    }
+}

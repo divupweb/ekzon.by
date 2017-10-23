@@ -1,0 +1,46 @@
+.goods-block__area{
+	display:none;
+	a{
+	   font-family:Roboto-Light;
+	   font-size: 28px;
+	   text-decoration:none;
+	   color:#4a4a4a;
+	   transition:all 0.5s ease;
+	   display:none;
+	   text-align:center;
+	   width:349px;
+	   height:60px;
+	   background:url('../img-min/button-border_3.png');
+	   background-size:100% 100%;
+	   line-height:60px;
+       -ms-user-select: none;
+       -moz-user-select: none;
+       -khtml-user-select: none;
+       -webkit-user-select: none;
+       max-width:100%;
+       margin:0 auto;
+       margin-top:60px;
+	}
+	a:hover{
+	   color:#4ab75e;
+	   text-decoration:underline;
+	}
+}
+#area_2{
+	display:block;
+}
+@media screen and (max-width:768px){
+.goods-block__area{
+       width:100%;
+       >a{
+           display:block;
+       }
+    }
+}
+@media screen and (max-width:425px){
+.goods-block__area{
+       >a{
+           font-size:18px;
+       } 
+    }
+}

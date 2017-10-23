@@ -1,0 +1,47 @@
+.footer__bottom{
+	font-family:Roboto-Light;
+	font-size:16px;
+	color:#4a4a4a;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-wrap:wrap;
+	text-align:center;
+	border-top:2px solid #4fb1f6;
+	-ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+	copyrights{
+	    padding:20px 0;
+	}
+	div{
+	    display:flex;
+	    align-items:center;
+	    padding:20px 0;
+	    a{
+	        display:block;
+	        margin-left:15px;
+	        width:113px;
+	        height:35px;
+	        background:url('../img-min/scroll_logotype.png');
+	    }
+	    a:hover{
+	       background-position: bottom;
+	    }
+	}
+	span{
+        font-family:Arial;
+    }
+}
+@media screen and (max-width:768px){
+.footer__bottom{
+	justify-content:space-around;
+	div{
+	    padding:20px 0px;
+	}
+	copyrights{
+	    padding:20px 0px;
+	}
+}	
+}

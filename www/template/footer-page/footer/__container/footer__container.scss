@@ -1,0 +1,13 @@
+.footer__container{
+	margin:40px 0px;
+	margin-top:90px;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+@media screen and (max-width:1024px){
+.footer__container{
+    margin-bottom:20px;
+    margin-top:40px;
+}   
+}

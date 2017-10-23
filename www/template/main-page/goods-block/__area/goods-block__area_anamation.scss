@@ -1,0 +1,11 @@
+.goods-block__area_anamation{
+	animation: show-in 2s;
+}
+@keyframes show-in{
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity:1;
+    }
+}

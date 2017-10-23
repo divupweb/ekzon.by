@@ -1,0 +1,62 @@
+.footer__socials {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+  position: relative;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .footer__socials p {
+    position: absolute;
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    left: -190px;
+    line-height: 40px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+  .footer__socials a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 20px;
+            border-radius: 20px;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  .footer__socials a:nth-child(2) {
+    background: url("../img-min/socials_sprite.png"); }
+  .footer__socials a:nth-child(2):hover {
+    background: #f1f1f1 url("../img-min/socials_sprite.png"); }
+  .footer__socials a:nth-child(3) {
+    background: url("../img-min/socials_sprite.png") 41px; }
+  .footer__socials a:nth-child(3):hover {
+    background: #f1f1f1 url("../img-min/socials_sprite.png") 41px; }
+  .footer__socials a:nth-child(4) {
+    background: url("../img-min/socials_sprite.png") 82px; }
+  .footer__socials a:nth-child(4):hover {
+    background: #f1f1f1 url("../img-min/socials_sprite.png") 82px; }
+  .footer__socials a:nth-child(5) {
+    width: 41px;
+    background: url("../img-min/socials_sprite.png") 123px; }
+  .footer__socials a:nth-child(5):hover {
+    background: #f1f1f1 url("../img-min/socials_sprite.png") 123px; }
+
+@media screen and (max-width: 475px) {
+  .footer__socials {
+    -webkit-box-pack: space-evenly;
+    -webkit-justify-content: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly; }
+    .footer__socials p {
+      position: relative;
+      left: 0px;
+      width: 100%;
+      text-align: center; } }

@@ -1,0 +1,79 @@
+.main-slider__align{
+	position:relative;
+}
+.main-slider{
+	width:100%;
+	img{
+       width:100%;
+       min-width:1000px;
+       min-height:340px;
+	}
+}
+.slick-dots {
+	bottom:-30px !important;
+}
+.slick-dots li{
+	background:#dceffd;
+	height:40px !important;
+	width:40px !important;
+	border-radius:40px !important;
+	border:10px solid white !important;
+	cursor:inherit !important;
+}
+.slick-active{
+	background:#4fb1f6 !important;
+}
+.slick-dots li button:before{
+	content:'' !important;
+}
+.slicks-toggle{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	background:white;
+	border-radius:30px;
+	border:10px solid white;
+	cursor:pointer;
+	margin-top:2px;
+	line-height:10px;
+	color:transparent;
+}
+.slicks-left{
+	background:white url('../img-min/toggle_buttons.png')0px bottom;
+}
+.slicks-left:hover{
+	background:white url('../img-min/toggle_buttons.png');
+}
+.slicks-right{
+	background:white url('../img-min/toggle_buttons.png')40px bottom;
+}
+.slicks-right:hover{
+	background:white url('../img-min/toggle_buttons.png')40px 0px;
+}
+@media screen and (max-width:768px){
+    .slick-dots{
+        bottom:-15px !important;
+    }
+	.slick-dots li{
+	   	height:20px !important;
+	    width:20px !important;
+	    border:5px solid white !important;
+	}
+	.slicks-toggle{
+	    width:20px;
+	    height:20px;
+	    border:5px solid white !important;
+	}
+    .slicks-left{
+	    background:white url('../img-min/toggle_buttons-2.png')0px bottom;
+    }
+    .slicks-left:hover{
+	    background:white url('../img-min/toggle_buttons-2.png'); 
+    }
+    .slicks-right{
+	    background:white url('../img-min/toggle_buttons-2.png')20px bottom;
+    }
+    .slicks-right:hover{
+	    background:white url('../img-min/toggle_buttons-2.png')20px 0px;
+    }
+}

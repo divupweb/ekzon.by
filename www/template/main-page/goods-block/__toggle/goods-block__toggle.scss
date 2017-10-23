@@ -1,0 +1,36 @@
+.goods-block__toggle{
+    display:flex;
+    align-items:center;
+    clear:both;
+    justify-content:flex-end;
+    i{
+        cursor:pointer;
+        display:block;
+    }
+    i:first-child{
+	    width:20px;
+	    height:25px;
+	    background:url('../img-min/button_group-2.png') 0px 25px;
+	    display:block;
+	}
+	i:last-child{
+	    width:20px;
+	    height:25px;
+	    background:url('../img-min/button_group-2.png') 20px 0px;
+	    display:block;
+	}
+	div{
+	    display:inline-block;
+	    width:8px;
+	    height:8px;
+	    border:1px solid #4a4a4a;
+	    border-radius:4px;
+	    margin:0px 7px;
+	}
+}
+@media screen and (max-width:768px){
+	.goods-block__toggle{
+	    margin-top:20px;
+	    justify-content:center;
+	}
+}

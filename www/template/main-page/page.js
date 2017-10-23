@@ -1,0 +1,14 @@
+$(document).ready(function(){
+ $(window).scroll(function(){
+   if($(this).scrollTop()+$(window).height()>$('.goods-block').offset().top+100){
+   	$('.goods-block__align').animate({opacity:"1"},2000);
+   }
+   if($(this).scrollTop()+$(window).height()>$('.news-block').offset().top+100){
+   	$('.news-block__main').animate({opacity:"1",left:"0px"},1000);
+   	$('.news-block__others').animate({opacity:"1",right:"0px"},1000);
+   }
+   if($(this).scrollTop()+$(window).height()>$('.information-block').offset().top+100){
+   	$('.information-block').animate({opacity:"1",top:"0px"},1000);
+   }
+ });
+});

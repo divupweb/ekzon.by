@@ -1,0 +1,15 @@
+.news-block_animation a {
+  -webkit-animation: fade-in 3s;
+          animation: fade-in 3s; }
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 100; } }
+
+@keyframes fade-in {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 100; } }

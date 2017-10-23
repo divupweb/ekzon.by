@@ -1,0 +1,11 @@
+.catalog-content__align{
+	padding-top:40px;
+	display:flex;
+	justify-content:space-between;
+}
+@media screen and (max-width:768px){
+.catalog-content__align{
+	flex-wrap:wrap;
+	justify-content:center;
+}	
+}

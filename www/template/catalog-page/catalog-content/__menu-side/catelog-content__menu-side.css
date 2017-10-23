@@ -15,11 +15,11 @@
     font-family: Roboto-Medium;
     font-size: 18px;
     color: #4a4a4a;
-    overflow: hidden; }
+    overflow-x: hidden;
+    background: #f8f8f8; }
     .catalog-content__menu-side > div:first-child label {
-      background: #f8f8f8;
       cursor: pointer;
-      line-height: 30px;
+      line-height: 45px;
       width: 100%;
       display: -webkit-box;
       display: -webkit-flex;
@@ -32,6 +32,7 @@
       -webkit-justify-content: space-between;
           -ms-flex-pack: justify;
               justify-content: space-between;
+      margin-top: -10px;
       border-left: 2px solid #d3d3d3;
       border-right: 2px solid #d3d3d3;
       -webkit-transition: all 0.5s ease;
@@ -68,16 +69,24 @@
             background: #4ab75e;
             position: absolute;
             left: -55px;
+            top: 5px;
             display: none; }
           .catalog-content__menu-side > div:first-child label ul li a:hover {
             color: #4ab75e !important; }
           .catalog-content__menu-side > div:first-child label ul li a:active {
             color: #4ab75e !important; }
+          .catalog-content__menu-side > div:first-child label ul li a:active + div {
+            color: #4ab75e !important; }
+          .catalog-content__menu-side > div:first-child label ul li a:focus {
+            color: #4ab75e !important; }
+          .catalog-content__menu-side > div:first-child label ul li a:focus + div {
+            display: block; }
     .catalog-content__menu-side > div:first-child label:nth-child(2) {
       border-top: 2px solid #d3d3d3;
       -webkit-border-radius: 15px 15px 0px 0px;
               border-radius: 15px 15px 0px 0px;
-      padding-top: 30px; }
+      padding-top: 30px;
+      margin-top: 0px; }
     .catalog-content__menu-side > div:first-child label:last-child {
       border-bottom: 2px solid #d3d3d3;
       -webkit-border-radius: 0px 0px 15px 15px;
@@ -92,7 +101,9 @@
       border: 2px solid #4ab75e;
       -webkit-flex-wrap: wrap;
           -ms-flex-wrap: wrap;
-              flex-wrap: wrap; }
+              flex-wrap: wrap;
+      -webkit-border-radius: 15px;
+              border-radius: 15px; }
     .catalog-content__menu-side > div:first-child input:checked + label i:before {
       content: '\f106'; }
     .catalog-content__menu-side > div:first-child input:checked + label ul {
